@@ -12,7 +12,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest(DemoController.class)
-public class DemoControllerTest {
+class DemoControllerTest {
 
     @Autowired
     private MockMvc mockMvc;

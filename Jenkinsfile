@@ -24,10 +24,10 @@ pipeline {
                 }
             }
         }
-        /*stage('Deploy') {
+        stage('Deploy') {
             steps {
-                build "jenkins-demo-deploy"
+                build "Deploy Demo Job"
             }
-        }*/
+        }
     }
 }
