@@ -45,7 +45,7 @@ tasks.named('sonar').configure {
 
 sonar {
     properties {
-        property "sonar.projectKey", "JenkinsDemo"
-        property "sonar.projectName", "JenkinsDemo"
+        property "sonar.projectKey", "Stage4-Task1"
+        property "sonar.projectName", "Stage4-Task1"
     }
 }
